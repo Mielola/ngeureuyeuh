@@ -33,7 +33,7 @@
                     <p>Nama :</p>
                 </div>
 
-                <!-- Kolom 3 -->
+                <!-- KOLOM 3 -->
                 <div class="kolom3">
                     <input class="tengah" name="email">
                 </div>
