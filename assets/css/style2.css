@@ -1,24 +1,36 @@
 :root {
-  --Background: #d8eefe;
+  --Background: #D8EEFE;
   --biru-tua: #094067;
   --abu-abu: #5f6c7b;
-  --white: #fffffe;
+  --white: #FFFFFE;
   --biru-muda: #3da9fc;
 }
 
-* {
+*{
   padding: 0;
   margin: 0;
 }
 
-body {
-  background-color: var(--Background);
+
+body{
+  background-color: var(--Background) ;
   height: 100vh;
+  
 }
+
+.ellipse-23 {
+  
+height: 900px;
+left: 320px;
+position: absolute;
+top: -50px;
+width: 1200px;
+}
+
 
 .inputan3 {
   width: 100px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 160px;
   left: 60px;
@@ -30,7 +42,7 @@ body {
 }
 .inputan4 {
   width: 100px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 235px;
   left: 60px;
@@ -42,28 +54,23 @@ body {
 }
 
 .kolom3 {
-  height: 40px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  width: 60%;
+  height: 30px;
   position: absolute;
   top: 185px;
   left: 60px;
-  overflow: hidden;
+
 }
 
 .kolom4 {
-  height: 40px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: absolute;
+  width: 60%;
+  height: 30px;
+  position:absolute;
   top: 260px;
   left: 60px;
-  overflow: hidden;
 }
 
-.checkbox {
+.checkbox{
   width: 2000px;
   height: 40px;
   background-repeat: no-repeat;
@@ -75,7 +82,8 @@ body {
   overflow: hidden;
 }
 
-.lisensi {
+.lisensi{
+  width: 2000px;
   height: 40px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -86,7 +94,7 @@ body {
   left: 80px;
   overflow: hidden;
 }
-.lisensi2 {
+.lisensi2{
   width: 500px;
   height: 40px;
   background-repeat: no-repeat;
@@ -98,7 +106,8 @@ body {
   left: 60px;
   overflow: hidden;
 }
-.memiliki {
+.memiliki{
+  width: 115px;
   height: 40px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -116,56 +125,45 @@ body {
   background-size: cover;
   position: absolute;
   font-size: 12px;
-  top: 525px;
+  top: 600px;
   left: 565px;
   overflow: hidden;
 }
 
-.class {
+.class{
   position: relative;
   color: #3da9fc;
 }
 
-.depan {
-  width: 50%;
-  height: 30px;
-}
-.belakang {
-  width: 50%;
-  height: 30px;
-}
-.tengah {
-  width: 50%;
-  height: 30px;
-}
-.bawah {
-  width: 50%;
-  height: 30px;
-}
 
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color: #3da9fc;
-  width: 150px;
-  height: 40px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: absolute;
-  top: 390px;
-  left: 55px;
-  overflow: hidden;
-  border-radius: 5px;
-  box-shadow: 1px 2px 5px black;
-}
+.tengah{
+  width: 145%;
+  height: 30px;
+  }
+.bawah{
+  width: 145%;
+  height: 30px;
+  }
+
+  .button {
+      border: none;
+      color: white;
+      font-size: 12px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: #3da9fc;
+      width: 150px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      position: absolute;
+      top: 390px;
+      left: 55px;
+      overflow: hidden;
+      border-radius: 5px;  
+      box-shadow: 1px 2px 5px black;      
+    }
 
 .footer {
   position: absolute;
@@ -174,41 +172,46 @@ body {
   font-size: 1;
 }
 
-.background {
+.background{
   background-color: white;
-  height: 100vh;
+  height: 110vh;
   width: 50%;
   position: absolute;
   left: 15%;
+  opacity: 90%;
 }
 
 .bg {
   background-color: white;
 }
 
-.welcome {
+.welcome{
   text-align: center;
   color: #3da9fc;
 }
 
 .input {
   text-align: center;
+  
 }
 
-.done .foter {
+
+.done .foter{
+  
   position: absolute;
   text-align: center;
   top: 45%;
   width: 100%;
 }
-.done1 {
+.done1{
+  
   position: absolute;
   text-align: center;
   top: 45%;
   width: 100%;
 }
 
-.sign {
+.sign{
   text-align: center;
   top: 50px;
   margin-top: 10vh;
@@ -222,15 +225,3 @@ body {
   text-align: center;
 }
 
-.v178_9 {
-  width: 80px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 267px;
-  left: 187px;
-  font-family: Inter;
-  font-weight: Regular;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}

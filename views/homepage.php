@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -23,7 +23,7 @@
         <li>Acara</li>
         <li>Organisasi</li>
         <li>Kontak</li>
-        <li><button class="button daftar" onclick="window.location.href='views/sign.php'">Daftar</button></li>
+        <li><button class="button daftar" onclick="window.location.href='sign.php'">Daftar</button></li>
       </ul>
     </nav>
   </header>

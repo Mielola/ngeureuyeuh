@@ -10,8 +10,8 @@
 </head>
 
 <body>
+    <img src="../assets/pics/shape3.png" alt="Ellipse 23" class="ellipse-23">
     <div class="background">
-        <img src="../assets/pics/shape3.png" alt="Ellipse 23" class="ellipse-23">
         <div class="shape"></div>
         <h2 class="welcome">Welcome to T-Zens</h2>
         <p class="sign">SIGN UP</p>
